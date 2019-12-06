@@ -1,0 +1,2 @@
+sample\fhir\server\jersey\SampleJerseyRestfulServerApplication.class
+sample\fhir\server\jersey\provider\PatientResourceProvider.class
