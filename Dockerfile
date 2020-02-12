@@ -8,15 +8,15 @@ LABEL maintainer="trial"
 EXPOSE 8080
 
 # The application's jar file
-ARG JAR_FILE=target/hapi-fhir-spring-boot-sample-server-jersey-4.1.0.jar
+ARG JAR_FILE=target/mdix-fhir-terminology-1.0.0.jar
 
 # Add the application's jar to the container
-COPY ${JAR_FILE} fhirspringboot.jar
+COPY ${JAR_FILE} fhirterminology.jar
 
 CMD ["bundle",  "exec", "rails", "server", "-e", "production"]
 
 ENV CLASSPATH /maps 
 
 # Run the jar file 
-ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/fhirspringboot.jar"]
+ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/fhirterminology.jar"]
 
