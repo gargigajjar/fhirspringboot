@@ -1,2 +1,3 @@
-C:\Users\gargi\eclipse-workspace\hapi-fhir-spring-boot-sample-server-jersey\src\main\java\sample\fhir\server\jersey\SampleJerseyRestfulServerApplication.java
-C:\Users\gargi\eclipse-workspace\hapi-fhir-spring-boot-sample-server-jersey\src\main\java\sample\fhir\server\jersey\provider\PatientResourceProvider.java
+C:\Users\gargi\eclipse-workspace\com.mdix.fhir.terminology2\src\main\java\sample\fhir\server\jersey\provider\ConceptMapProvider.java
+C:\Users\gargi\eclipse-workspace\com.mdix.fhir.terminology2\src\main\java\sample\fhir\server\jersey\provider\TerminologyUtil.java
+C:\Users\gargi\eclipse-workspace\com.mdix.fhir.terminology2\src\main\java\sample\fhir\server\jersey\SampleJerseyRestfulServerApplication.java

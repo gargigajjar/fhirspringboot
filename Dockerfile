@@ -19,4 +19,3 @@ ENV CLASSPATH /maps
 
 # Run the jar file 
 ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/fhirspringboot.jar"]
-
